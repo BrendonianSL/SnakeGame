@@ -93,7 +93,7 @@ public class GameController : MonoBehaviour{
 
 
     void UpdateCountAreaText(){
-        numAreaTakenText.text = "Dominated Areas: " + numAreaTaken.ToString();
+        numAreaTakenText.text = "Dominated Areas: " + numAreaTaken.ToString() + " areas";
     }
 
 }
