@@ -72,7 +72,7 @@ public class GameController : MonoBehaviour{
             */
 
             for(int i = 0; i < spawnPoints.Length; i++){
-                int numberOfOpponents = i + 3
+                int numberOfOpponents = i + 3;
 
                 for(int j = 0; j < numberOfOpponents; j++){
                     Instantiate(opponentPrefabs[i], spawnPoints[i].position, Quaternion.identity);
@@ -88,6 +88,7 @@ public class GameController : MonoBehaviour{
             /*
             Count Absorb opponents connecting to collision detection file (absorbing opponents file)
             */
+            numAreaTaken++;
         }
     }
 
