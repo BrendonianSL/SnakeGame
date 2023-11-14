@@ -86,7 +86,7 @@ public class GameController : MonoBehaviour{
     IEnumerator CountAreaTaken(){
         while(!isGameover){
             /*
-            Count Absorb opponents connecting to collision detection file (absorbing opponents file)
+            Count dominated areas using collision detection file (absorbing opponents file)
             */
             numAreaTaken++;
         }
