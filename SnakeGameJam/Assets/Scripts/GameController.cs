@@ -88,13 +88,12 @@ public class GameController : MonoBehaviour{
             /*
             Count Absorb opponents connecting to collision detection file (absorbing opponents file)
             */
-            numAreaTaken++;
         }
     }
 
 
     void UpdateCountAreaText(){
-        numAreaTakenText.text = "Dominated Areas: " + numAreaTaken.ToString() + " areas";
+        numAreaTakenText.text = "Dominated Areas: " + numAreaTaken.ToString();
     }
 
 }
